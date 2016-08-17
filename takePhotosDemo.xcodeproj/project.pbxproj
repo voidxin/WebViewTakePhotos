@@ -13,6 +13,7 @@
 		57FBE0971D34AB8300DFF88E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57FBE0951D34AB8300DFF88E /* Main.storyboard */; };
 		57FBE0991D34AB8300DFF88E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57FBE0981D34AB8300DFF88E /* Assets.xcassets */; };
 		57FBE09C1D34AB8300DFF88E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57FBE09A1D34AB8300DFF88E /* LaunchScreen.storyboard */; };
+		57FBE0A41D34AC3500DFF88E /* camera.html in Resources */ = {isa = PBXBuildFile; fileRef = 57FBE0A31D34AC3500DFF88E /* camera.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		57FBE0981D34AB8300DFF88E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		57FBE09B1D34AB8300DFF88E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		57FBE09D1D34AB8300DFF88E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57FBE0A31D34AC3500DFF88E /* camera.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = camera.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 		57FBE08B1D34AB8300DFF88E /* takePhotosDemo */ = {
 			isa = PBXGroup;
 			children = (
+				57FBE0A31D34AC3500DFF88E /* camera.html */,
 				57FBE08F1D34AB8300DFF88E /* AppDelegate.h */,
 				57FBE0901D34AB8300DFF88E /* AppDelegate.m */,
 				57FBE0921D34AB8300DFF88E /* ViewController.h */,
@@ -139,6 +142,7 @@
 				57FBE09C1D34AB8300DFF88E /* LaunchScreen.storyboard in Resources */,
 				57FBE0991D34AB8300DFF88E /* Assets.xcassets in Resources */,
 				57FBE0971D34AB8300DFF88E /* Main.storyboard in Resources */,
+				57FBE0A41D34AC3500DFF88E /* camera.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,8 +267,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = takePhotosDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.szwgmf.takePhotosDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.szwgmf.YingXiaoGuanJia;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "e7562ab3-16dc-4813-995e-e71683699e2a";
 			};
 			name = Debug;
 		};
@@ -274,8 +279,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = takePhotosDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.szwgmf.takePhotosDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.szwgmf.YingXiaoGuanJia;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "e7562ab3-16dc-4813-995e-e71683699e2a";
 			};
 			name = Release;
 		};
